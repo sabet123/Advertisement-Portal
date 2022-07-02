@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	//background-color:#FCF;
+	font-family:Arial, Helvetica, sans-serif;
+	font:Arial, Helvetica, sans-serif;
+}
+
+.header {
+	background-image:url(../images/hh.png);
+	border:2px sloid red;
+	background-repeat:no-repeat;
+	width:1000px;
+	height:143px;
+	margin:auto;
+	margin-top:0px;
+}
+
+.header-menus {
+	width:685px;
+	margin:0 115px;
+	position:relative;
+	top:108px;
+
+}
+
+.width-100percent {
+	width:100%;
+}
+
+.footer {
+	background-image:url(../images/footer.png);
+	width:1000px;
+	height:35px;
+	margin:auto;
+	position:relative;
+}
+
+.footer-menus {
+	width:930px;
+	margin:5px 10px;
+	position:absolute;
+}
+
+ul li {
+	display:inline;
+	margin-top:100px;
+	color:white;
+
+}
+
+a {
+	text-decoration:none;
+	color:white;
+	margin:0 8px;
+	font-size:18px;
+}
+
+.login-area {
+	height:380px;
+	width:390px;
+	/*float:right;*/
+	margin-left:300px;
+	margin-top:80px;
+}
+
+.button-style {
+	border-color:#9d387b;
+	background-color:#b980a6;
+	color:#fff;
+	border-radius:8px;
+}
+
+.box_shadow {
+	box-shadow:2px 2px 5px black;
+	background-color:#CC6;
+}
+
+.contact_us {
+	height:60px;
+	width:370px;
+	background-color:#EEEEEE;
+	border-radius:5px;
+	color:blue;
+	margin:20px 65px 0px;
+}
+
+.size-150 {
+		width:150px;	
+	}
+	
+	.size-145 {
+		width:145px;
+	}
+	
+.size-210 {
+		height:25px;
+		width:250px;
+	}
+	
+.gray-color {
+	color:#808080;
+}
+
+.sub-menu:hover ul {
+    display: block;
+	width:150px;
+	font-size:9px;
+	margin-left:595px;
+}
+.sub-menu ul {
+    top: 40px;
+    display: none;
+    list-style-type: none;
+	background-color:#57043b;
+}
+
+.borderR {
+
+	border-right:1px solid #e3e3e3;
+
+}
